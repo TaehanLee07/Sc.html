@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        p2 {
+            background-color: yellow;
+            color: red;
+        
+        }
+        p1 {
+            background-color: blanchedalmond;
+            color: blue;
+            
+        }
+        .Movie span {
+            color: chartreuse;
+            font-size: 30px;
+            background-color: coral;
+        }
+    </style>
+    웹페이지를 만들때 관련있는 요소끼리 그룹으로 묶으면 레이아웃을 구성하기 쉬워지고
+    html 페이지의 구조를 좀 더 깔끔하게 작성할수있다 html 은 span 태그를 사용
+    이외 div span 태그를 공간 분할 태그라고한다
+    div 태그: 블록 인라인 요소상관없이 그룹으로 묶을때 사용한다
+    <div class="Movie"> 
+        <p2>영화소개</p2>
+        <p2>영화를 소개하는 페이지입니다</p2>
+        <p2>이번영화의 하이라이트는 <span>추격신이다</span></p2>
+        </div>
+    <div class="Tv">
+        <p1>Tv 프로그램 소개</p1>
+        <p1>Tv 프로그램을 소개하는 페이지입니다</p1>
+        </div>
+
+        span: 인라인 요소로 그룹으로 묶을때 사용한다
+        
+    
+</body>
+</html>
