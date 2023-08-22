@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+<body>
+    폼은 html 에서 사용자와 상호작용해서 정보를 입력받고 서버로 전송하기 위한 양식이다
+
+    form태그
+    form 태그는 폼 양식을 의미한다
+    그래서 html 에 form을 구성하는 모든 태그는 form 태그 안에 작성해야한다
+
+    <form action="05.html" method="get">
+        
+        <input type="text"><br>
+        <input type="submit" value="전송">
+        <input type="password"><br>
+        <input type="tel"><br>
+        <input type="url"><br>
+        <input type="number" title="숫자만 쓰시오">
+        <input type="button" value="버튼"> <br>
+        <input type="reset" value="리셋">
+
+
+    </form>
+    
+</body>
+</html>
