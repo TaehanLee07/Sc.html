@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko  ">
+<head>
+    <meta charset="UTF-8">
+    <title>filedset과legend</title>
+</head>
+<body>
+    form 태그안에 사용된 다양한 상호작용 요소도 filedset 태그를 사용해 그룹지을수있다.
+    legend 태그는 fieldset 태그로 그룹지어 놓은요소의 이름을 붙이는 태그이다.
+
+    <form action="#">
+        <fieldset>
+
+            <legend>기본정보</legend>
+            <p>유저아이디 : <input type="text" name="유저아이디" id=""></p>
+            <p>비밀번호 : <input type="password" name="비밀번호" id=""></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>선택정보</legend>
+                <p>
+                    <label for="age">나이</label>
+                    <input type="number" name="age" id="age">
+                </p>
+                <p>
+                    <label for="rmd">추천인</label>
+                    <input type="text" name="rmd" id="rmd">
+                </p>    
+
+            
+        </fieldset>
+        
+    </form>
+</body>
+</html>
