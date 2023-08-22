@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+<body>
+    textarea 태그는여러줄의 입력요소를 생성할떄 input 태그가 아닌 textarea 태그를 사용한다
+
+    <form action="#">
+        <legend>블로그 글쓰기</legend>
+        <p>
+            <label for="title"></label>
+            <input type="text" name="title" id="title">
+        </p>
+        <p>
+            <label for="desc">내용</label>
+            <textarea name="desc" id="" cols="30" rows="10"></textarea>
+        </p>
+
+    </form>
+
+
+    
+</body>
+</html>
