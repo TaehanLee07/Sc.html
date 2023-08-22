@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!-- button요소 button,submit,reset 지정해서 사용할수있다
+    별도의 버튼태그를 사용할수있다 -->
+
+    <input type="button" value="btn1">
+    <button>btn2</button>
+</body>
+</html>
