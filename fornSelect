@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>select</title>
+</head>
+<body>
+    <!-- select 태그를 사용하면 콤보박스를 생성할수있다. -->
+    <select name="city" id="city">
+        <option value="name">도시선택</option>
+        <option value="01">서울</option>
+        <option value="07">성남</option>
+        <option value="10">수원</option>
+        <option value="25">삼척</option>
+        <option value="50">제주</option>
+    </select>
+
+    <select name="city2" id="city2" size="1">
+        <option value="name">구 선택</option>
+        <optgroup label = "서울시">
+            <option value="01-1">강남</option>
+            <option value="01-2">강북</option>
+        </optgroup>
+        <!-- multiple은 셀렉트박스에서 여러값을 사용할수있게 해주지만 사용하지않는것이 좋다 -->
+        <optgroup label="성남시">
+            <option value="07-1">분당구</option>
+            <option value="07-2">중원구</option>\
+            <option value="07-3">수정구</option>
+            <!-- 목록에서 제일먼저 선택되어지게 하려면 selected태그를 사용한다 -->
+        </optgroup>
+    </select>
+</body>
+</html>
