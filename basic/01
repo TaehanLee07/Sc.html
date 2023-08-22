@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>First Html</title>
+    <style>
+        h1 {
+            font-size: 20;
+            background-color: yellow;
+            width: 250px;
+            height: 45px;
+        }
+
+        span {
+            color: yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color:#6ecfcf;">Heading Level 1</h1>
+    <h2 style="color:#57c2c2;">Heading Level 2</h2>
+    <h3 style="color:#57c2c2;">Heading Level 3</h3>
+    <h4 style="color:#57c2c2;">Heading Level 4</h4>
+    <h5 style="color:#57c2c2;">Heading Level 5</h5>
+    <h6 style="color:#57c2c2;">Heading Level 6</h6>
+    <!-- Html 은 블록요소를 지니고있다 블록요소란 한줄을 다차지 하기떄문에 빈공간이있어보이지만 사실없어서 줄바꿈이 이루어지는것이다 -->
+    <h6 style="color:#6ecfcf;">Heading Level 1</h6>
+    <h5 style="color:#57c2c2;">Heading Level 2</h5>
+    <h4 style="color:#57c2c2;">Heading Level 3</h4>
+    <h3 style="color:#57c2c2;">Heading Level 4</h3>
+    <h2 style="color:#57c2c2;">Heading Level 5</h2>
+    <h1 style="color:#57c2c2;">Heading Level 6</h1>
+    <span>동해물과 백두산이<span style="color:red"> 마르고</span> 닳도록</span>
+    <!--span 태그는 인라인 요소로 줄바꿈되지 않는다 그리고 특정 테긋트를 강조할때 사용할수있다 -->
+    <!-- p 태그는 본문의 문단을 작성할때 스이는 코드이다 -->
+    <p style="color:blue">3일동안 happy 했다<br>hong hong hong</p>
+    <!-- 출처에서 인용한 문단단위의 텍스트를 쓸대 사용함 -->
+    <blockquote>성일정보고</blockquote>
+    <style>
+        button {
+            color: black;
+            background-color: wheat;
+            
+        }
+    </style>
+    <button>3일이상 <br>연애하고싶습니까? <br> button을 클릭하다!</button>
+
+    <q>q태그는 짧은 인용문을 사용할떄 쓰인다</q>
+
+    <sub>100000</sub>
+
+
+
+
+    <!-- body 태그는 웹페이지에 노출되는 곳이다 -->
+</body>
+
+</html>
