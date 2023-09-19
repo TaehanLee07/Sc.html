@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">    
+    <title>Document</title>
+    <link rel="stylesheet" href="css/11.css">
+</head>
+<body>
+    <ul id="gnb">
+        <!-- 영어와 한글은 별도의 태그를 사용해서 따로 두는 것이 좋음 -->
+        <li><a href="#">회사소개<span>COMPANY</span></a></li>
+        <li><a href="#">제품안내<span>PRODUCT</span></a></li>
+        <li><a href="#">고객지원<span>CUDOMER</span></a></li>
+        <li><a href="#">채용정보<span>RECRUIT</span></a></li>
+        <li><a href="#">커뮤니티<span>COMMUNITY</span></a></li>
+    </ul>
+</body>
+</html>
