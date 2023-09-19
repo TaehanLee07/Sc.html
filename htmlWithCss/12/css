@@ -1,0 +1,54 @@
+* {
+    margin: 0   ;padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font: 12px 굴림, Gulim;
+    margin: 10px;
+}
+
+.wrap {
+    position: relative;
+    border: 1px solid red;
+    width: 400px;
+    height: 700px;
+}
+
+.bbs {
+    position: absolute;
+    width: 250px;
+    border: 2px solid #ccc; 
+    background-color: #fefefe;
+    padding: 5px;
+    top: 10px;
+    left: 10px;
+    bottom: 255px;
+    right: 15px;
+    height: 100px;
+}
+.bbs dt {
+    font-weight: 800px;
+    padding-bottom: 10px;
+    color: #580;
+}
+
+.bbs dd a {
+    color: #666;
+    padding-left: 10px;
+}
+.bbs dd a:hover {
+    text-decoration: underline;
+    color: #00f;
+
+}
+p {
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
